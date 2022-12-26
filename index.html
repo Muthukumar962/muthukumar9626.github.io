@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel = "stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e659d90482.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class = "container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href ="#header">Home</a></li>
+                    <li><a href ="#about">About</a></li>
+                    <li><a href ="#services">Skills</a></li>
+                    <li><a href ="#portfolio">Hobbies</a></li>
+                    <li><a href ="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class = "header-text">
+                <p>Hey there..!!</p>
+                <h1>Hi, This is <span>Muthukumar</span><br> From TCE</h1>
+            </div>
+        </div>
+    </div>
+<!-- About  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        Hi, I'm doing my bachelor's degree in Thiagarajar College of Engineering in "Electronics and Communication Engineering" Major.  I do love Sports, I am an athlete, Besides Sports I do Code, Trading is my other Hobby and good at Technical and Fundamental Analysis
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links" active-link onclick="opentab('skills')">Education : </p>
+                        <p class="tab-links" onclick="opentab('experience')"></p>
+                        <p class="tab-links" onclick="opentab('education')"></p>
+                    </div>
+
+                    <div class="tab-contents">
+                        <ul>
+                            <li><span>UI UX</span><br>Designing Web/ App interfaces</li>
+                            <li><span>Web Development</span><br>Web Developing</li>
+                            <li><span>App Development</span><br>Android App Development</li>
+                        </ul>
+                    </div>
+ 
+
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>SSLC</span><br>RKR Higher Secondary School</li>
+                            <li><span>HSS</span><br>Veveaham Higher Secondary School & CBSE School</li>
+                            <li><span>BE/ECE</span><br>Thiagarajar College of Engineering</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id = "experience">
+                        <ul>
+                            <li><span>Appathon Competion</span><br>Designing Web/ App interfaces</li>
+                            <li><span>2019-2023</span><br>Web Developing</li>
+                            <li><span>Bug Bounty</span><br>Android App Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017</span><br>SSLC</li>
+                            <li><span>2019</span><br>HSC</li>
+                            <li><span>2023</span><br>BE-ECE</li>
+                        </ul>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICES -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Hell I do develop static and dynamic web applications by using  HTML, CSS, and JS. and I am currently working on projects using MERN Technologies</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Ethical Hacking</h2>
+                    <p>Kali Linux and its tools increase my curiosity about Ethical Hacking. Penetration testing, phishing attacks,  Metasploit are some of the attacks that i had done in Kali Linux</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                    <p>Hello, We can design Mobile applications mostly Android Applications by using FIGMA, Java/Kotlin, and Firebase</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- -------Portfolio----------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Hobby</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg" alt="work-1">
+                <div class="hobby">
+                    <h3>Athletics</h3>
+                    <p>Athletics helps me to connect myself with the Physical World and the ability to break the limitations</p>
+                    <!-- <a href="#"><i class="fa-solid fa-link"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <div class="hobby">
+                    <img src="images/work-2.jpg" alt="work-2">
+                    <h3>Traveling</h3>
+                    <p>Traveling refreshes my mind. It helps me to unlock different parts of the world</p>
+                    <!-- <a href="#"><i class="fa-solid fa-link"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <div class="hobby">
+                    <img src="images/work-3.jpg" alt="work-3"> 
+                    <h3>Books and Music</h3>
+                    <p>They are the perfect combo together. They take me into a fantasy world</p>
+                    <!-- <a href="#"><i class="fa-solid fa-link"></i></a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------contact------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class = "sub-title">Contact Me</h1>
+                <p><i class="fas fa-sharp fa-paper-plane"></i> muthukumarb9626@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9626476599</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/muthu.kumarmk.921230/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/psychotic_buddha/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/muthukumar-b-8022821b1/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/muthukumar-b-8022821b1/"><i class="fa-brands fa-twitter-square"></i></a>
+                </div>
+                <a href="images/CV.pdf" class="btn btn2" >Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name = "Name" placeholder="Your Name" required>
+                    <input type="text" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder = "Your Message" ></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>   Copyright <i class="fa-regular fa-copyright"></i> Muthu. Made by Muthukumar for Bounteous <i class="fa-solid fa-heart"></i> Corporation</p>
+    </div>
+</div>
+
+<!-- <script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    // console.log(tabcontents)
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classLlist.remove("active-link")
+        }
+
+        for(tabcontent of tabcontents){
+            console.log(tabcontent.classLlist )
+            tabcontent.classLlist.remove("active-tab")
+        }
+        event.currentTarget.classLlist.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script> -->
+
+</body>
+</html>
